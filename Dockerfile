@@ -11,7 +11,7 @@ RUN go build --ldflags '-extldflags "-static"' -o bin/prometheus-cachet-bridge
 
 # Deployment
 # ----------
-FROM alpine:3.12
+FROM alpine:3.13
 
 ARG REPO=/go/src/github.com/dbluxo/prometheus-cachet
 
